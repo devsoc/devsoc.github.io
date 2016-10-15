@@ -1,0 +1,40 @@
+/*
+Author: @manojpandey
+*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.intro-body {
+    height: 30%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#tagline {
+    font-family: 'Over the Rainbow', cursive;
+    font-size: 50px;
+    color: orange;
+}
+
+#check {
+    font-size: 20px;
+    font-family: 'Schoolbell', cursive;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 425px) {
+    #tagline {
+        font-size: 30px;
+    }
+    .intro-body {
+        padding: 0 20px;
+    }
+}
